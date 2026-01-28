@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" maxHeight="200.0" maxWidth="200.0" spacing="20.0" styleClass="background-box" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.dev.rafaelrs.todofx.LabelController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label fx:id="welcomeText" />
+    <Button onAction="#onShowButtonClick" text="Show">
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor></Button>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</VBox>
